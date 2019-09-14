@@ -2,7 +2,7 @@
 2019-09-10
 
 ### Project Title
-pdsnd_gethub
+pdsnd_gethub - Bike Share Data Alalysis
 
 ### Description
 This project takes bike share data from three cities and provides the user a list of statistical data to allow them to understand how the sharing systems are used in each city.
