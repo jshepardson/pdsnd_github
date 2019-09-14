@@ -226,6 +226,8 @@ def user_stats(df, city):
     print('Count by user types:\n{}\n'.format(user_types))
 
     # Display counts of gender
+    # Added if statement as the city of Washington's file did not include gender 
+    # statistics
     if city != 'Washington':
         gender_count = df['Gender'].value_counts()
         
