@@ -131,16 +131,16 @@ def time_stats(df):
     start_time = time.time()
 
     # display the most common month
-    common_m = df['month'].value_counts().idxmax()
-    print('Month with the most use based on the selected filter: {} \n'.format(cal.month_name[common_m]))
+    common_month = df['month'].value_counts().idxmax()
+    print('Month with the most use based on the selected filter: {} \n'.format(cal.month_name[common_month]))
     
     # display the most common day of week
-    common_wd = df['day_of_week'].value_counts().idxmax()
-    print('Day of the week with the most use based on selected filter: {} \n'.format(common_wd))
+    common_day_of_week = df['day_of_week'].value_counts().idxmax()
+    print('Day of the week with the most use based on selected filter: {} \n'.format(common_day_of_week))
 
     # display the most common start hour
-    common_h = df['start_hour'].value_counts().idxmax()
-    print('Hour of the day with the most use based on selected filter: {} \n'.format(common_h))
+    common_hour = df['start_hour'].value_counts().idxmax()
+    print('Hour of the day with the most use based on selected filter: {} \n'.format(common_hour))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
