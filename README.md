@@ -1,15 +1,18 @@
 ### Date created
-Include the date you created this project and README file.
+2019-09-10
 
 ### Project Title
-Replace the Project Title
+pdsnd_gethub
 
 ### Description
-Describe what your project is about and what it does
+This project takes bike share data from three cities and provides the user a list of statistical data to allow them to understand how the sharing systems are used in each city.
 
 ### Files used
-Include the files used
+bikeshare_2.py
+.gitignore:
+    'chicago.csv', 'new_york_city.csv', 'washington.csv'
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Udacity repo was forked: https://github.com/udacity/pdsnd_github
+Udacities Project template guided the project.
 
