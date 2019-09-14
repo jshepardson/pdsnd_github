@@ -9,6 +9,7 @@ This project takes bike share data from three cities and provides the user a lis
 
 ### Files used
 bikeshare_2.py
+These three files are excluded from the project but critical to the function of the software.
 .gitignore:
     'chicago.csv', 'new_york_city.csv', 'washington.csv'
 
