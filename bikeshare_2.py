@@ -1,3 +1,11 @@
+"""
+BikeShare_2 has been created to help analyze data of the three city files provided.
+Some customizations will be required to allow for processing files other than the the three listed bellow:
+'chicago.csv', 'new_york_city.csv', 'washington.csv'
+
+Future planned enhancements include requesting a directory from the user for which they would like to review files. Scanning that directory for files and processing their contents for analsis. 
+"""
+
 import time
 import pandas as pd
 import numpy as np
